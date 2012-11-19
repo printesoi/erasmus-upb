@@ -317,7 +317,7 @@ a.button:visited, a.button:hover, a.button:link {
 }
 
 .gray {
-    color: #fef4e9;
+    color: #eeeeee;
     border: solid 1px #444444;
     background: #555555;
     background: -webkit-gradient(linear, left top, left bottom, from(#747474), to(#555555));
@@ -326,14 +326,14 @@ a.button:visited, a.button:hover, a.button:link {
 }
 
 .gray:hover {
-    background: #f47c20;
+    background: #707070;
     background: -webkit-gradient(linear, left top, left bottom, from(#404040), to(#606060));
     background: -moz-linear-gradient(top,  #404040,  #606060);
     filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#404040', endColorstr='#606060');
 }
 
 .gray:active {
-    color: #fcd3a5;
+    color: #606060;
     background: -webkit-gradient(linear, left top, left bottom, from(#747474), to(#555555));
     background: -moz-linear-gradient(top,  #747474,  #555555);
     filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#747474', endColorstr='#555555');
