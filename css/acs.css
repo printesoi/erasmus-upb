@@ -344,14 +344,38 @@ a.button:visited, a.button:hover, a.button:link {
     margin-top: 5px;
 }
 
-table {
-    border: 1px dotted;
+.ersm {
+    border: 2px solid;
     border-color: #555555;
     border-collapse: collapse;
 }
 
-th, td {
+.ersm th, td {
     padding: 2px;
     border: 2px solid;
     border-color: #808080;
+}
+
+#offers {
+    width: 630px;
+    margin: 0;
+    border-right: 2px #222222 solid;
+}
+
+#offers ul {
+    list-style: circle;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width : 100%;
+}
+
+#offers ul li {
+    padding: 0;
+    margin: 0;
+}
+
+#offers li div:hover {
+    background-color: #DDDDDD;
+    border-right: 4px #666666 solid;
 }
